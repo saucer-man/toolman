@@ -1,0 +1,89 @@
+Include /etc/ssh/ssh_config.d/*.conf
+Host *
+    ServerAliveInterval 30
+    ServerAliveCountMax 3
+
+Host github.com
+    HostName github.com
+    IdentityFile ~/.ssh/id_rsa.github
+Host gitlab.com
+    HostName gitlab.com
+    IdentityFile ~/.ssh/id_rsa.gitlab
+Host *
+    ForwardAgent yes
+    IdentityFile ~/.ssh/id_rsa
+
+Host 10.10.179.28
+    HostName 10.10.179.28
+    User ycloudadmin
+    Port 18022
+
+Host 10.10.179.182
+    HostName 10.10.179.182
+    User yituadmin
+
+Host 10.10.179.70
+    HostName 10.10.179.70
+    User yanqing
+
+Host yanq-desk
+    HostName 10.10.200.42
+    User yanq
+
+Host 10.10.179.28
+    HostName 10.10.179.28
+    User yituadmin
+    Port 18022
+
+Host 10.10.179.200
+    HostName 10.10.179.200
+    User ycloudadmin
+    Port 18022
+
+Host cc-server
+    HostName 10.10.226.108
+    User codecraft
+    Port 18022
+
+Host cc-master
+    HostName 10.10.226.175
+    User codecraft
+    Port 18022
+
+Host cc-dns
+    HostName 10.10.226.141
+    User codecraft
+    Port 18022
+
+Host docker-registry
+    HostName 10.40.27.195
+    User codecraft
+    Port 18022
+Host cc-endion-master
+    HostName 10.40.127.111
+    User codecraft
+    Port 18022
+Host cc-endion-dns
+    HostName 10.40.127.38
+    User codecraft
+    Port 18022
+
+Host cc-endion-test
+    HostName 10.40.55.77
+    User root
+    Port 22
+
+Host cc-endion-proxy
+    HostName 10.40.127.89
+    User codecraft
+    Port 18022
+
+Host cc-glacius-master
+    HostName 10.40.119.121
+    User codecraft
+    Port 18022
+
+Host cc-download
+    HostName download.cc.yitu-inc.intra
+    User codecraft
+    Port 18022
