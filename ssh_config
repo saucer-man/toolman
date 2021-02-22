@@ -87,3 +87,8 @@ Host cc-download
     HostName download.cc.yitu-inc.intra
     User codecraft
     Port 18022
+
+Host cc-download-broker
+    HostName 10.40.27.219
+    User root
+    Port 22
