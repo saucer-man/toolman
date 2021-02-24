@@ -92,3 +92,7 @@ Host cc-download-broker
     HostName 10.40.27.219
     User root
     Port 22
+Host cc-proxy
+    Hostname 10.10.226.99
+    User codecraft
+    Port 18022
