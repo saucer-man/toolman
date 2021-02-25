@@ -8,6 +8,10 @@ Host ucloud
     User ubuntu
     Port 44401
 
+Host blog
+    HostName 120.78.49.231
+    User root
+    Port 44499
 Host github.com
     HostName github.com
     IdentityFile ~/.ssh/id_rsa.github
