@@ -3,6 +3,11 @@ Host *
     ServerAliveInterval 30
     ServerAliveCountMax 3
 
+Host ucloud
+    HostName 106.75.99.175
+    User ubuntu
+    Port 44401
+
 Host github.com
     HostName github.com
     IdentityFile ~/.ssh/id_rsa.github
