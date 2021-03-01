@@ -10,3 +10,5 @@ ln -snf $PWD/.vimrc ~/.vimrc
 ln -snf $PWD/.zshrc ~/.zshrc
 
 ln -snf $PWD/.tmux.conf ~/.tmux.conf 
+
+ln -snf $PWD/proxychains.conf ~/.proxychains/proxychains.conf 

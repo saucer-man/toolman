@@ -4,7 +4,7 @@ Host *
     ServerAliveCountMax 3
 
 Host ucloud
-    HostName 106.75.99.175
+    HostName 106.75.99.155
     User ubuntu
     Port 44401
 
