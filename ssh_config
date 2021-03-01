@@ -8,6 +8,11 @@ Host ucloud
     User ubuntu
     Port 44401
 
+Host tencent
+    HostName 106.52.169.251
+    User root
+    Port 44499
+
 Host blog
     HostName 120.78.49.231
     User root
