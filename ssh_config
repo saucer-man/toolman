@@ -3,6 +3,11 @@ Host *
     ServerAliveInterval 30
     ServerAliveCountMax 3
 
+Host android
+    HostName 192.168.1.12
+    User u0_a149
+    Port 8022
+
 Host ucloud
     HostName 106.75.99.155
     User ubuntu
