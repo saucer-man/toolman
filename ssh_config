@@ -78,7 +78,7 @@ Host cc-endion-dns
     Port 18022
 
 Host cc-endion-test
-    HostName 10.40.55.77
+    HostName 10.40.57.160
     User root
     Port 22
 
