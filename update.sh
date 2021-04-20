@@ -12,3 +12,5 @@ ln -snf $PWD/.zshrc ~/.zshrc
 ln -snf $PWD/.tmux.conf ~/.tmux.conf 
 
 ln -snf $PWD/proxychains.conf ~/.proxychains/proxychains.conf 
+
+ln -snf $PWD/gitconfig ~/.gitconfig

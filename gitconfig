@@ -1,0 +1,7 @@
+[http]
+	proxy = socks5://127.0.0.1:10800
+[https]
+	proxy = socks5://127.0.0.1:10800
+[user]
+	name = saucer-man
+	email = gyq0929@gmail.com
