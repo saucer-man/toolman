@@ -3,6 +3,10 @@ Host *
     ServerAliveInterval 30
     ServerAliveCountMax 3
 
+Host cc-config
+    HostName 10.40.30.31
+    User root
+    Port 22
 Host android
     HostName 192.168.1.12
     User u0_a149
@@ -100,6 +104,16 @@ Host cc-endion-proxy
 
 Host cc-glacius-master
     HostName 10.40.119.121
+    User codecraft
+    Port 18022
+
+Host cc-glacius-server
+    HostName 10.40.119.191
+    User codecraft
+    Port 18022
+
+Host cc-glacius-proxy
+    HostName 10.40.119.106
     User codecraft
     Port 18022
 
