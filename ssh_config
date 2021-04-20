@@ -25,6 +25,7 @@ Host blog
 Host github.com
     HostName github.com
     IdentityFile ~/.ssh/id_rsa.github
+    ProxyCommand connect -S 127.0.0.1:10800 %h %p
 Host gitlab.com
     HostName gitlab.com
     IdentityFile ~/.ssh/id_rsa.gitlab
