@@ -2,6 +2,7 @@ export ZSH="/home/yanq/.oh-my-zsh"
 ZSH_THEME="ys"
 plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
+DISABLE_AUTO_UPDATE="true"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
